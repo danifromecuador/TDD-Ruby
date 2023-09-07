@@ -1,7 +1,7 @@
 class Sum
-  def initialize(a, b)
-    @a = a
-    @b = b
+  def initialize(aaa, bbb)
+    @a = aaa
+    @b = bbb
   end
 
   def result
@@ -10,8 +10,8 @@ class Sum
 end
 
 describe Sum do
-  describe "#result" do
-    it "returns the sum of its arguments" do
+  describe '#result' do
+    it 'returns the sum of its arguments' do
       expect(Sum.new(1, 2).result).to eq(3)
     end
   end
