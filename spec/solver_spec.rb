@@ -1,5 +1,5 @@
 # import solver file
-require_relative '../solver'
+require_relative '../src/solver'
 
 describe Solver do
   describe 'Solver' do
@@ -61,7 +61,7 @@ describe Solver do
       expect(Solver.new.fizzbuzz(45)).to eq('fizzbuzz')
     end
     it 'returns 7 when argument is 7' do # test if argument is 7 this method should return 7
-      expect(Solver.new.fizzbuzz(7)).to eq(7)
+      expect(Solver.new.fizzbuzz(7)).to eq('7')
     end
   end
 end
