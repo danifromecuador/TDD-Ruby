@@ -33,7 +33,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  rubocop (>= 1.0, < 2.0)
+  rubocop (= 1.56.1)
 
 BUNDLED WITH
    2.4.19
